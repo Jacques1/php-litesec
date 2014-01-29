@@ -61,7 +61,6 @@ class Escaping
      * @throws InvalidArgumentException if the character encoding is not a string
      * @throws InvalidArgumentException if the encoding is not supported
      * @throws RuntimeException         if the escaped output is empty but the input was not (this indicates invalid characters)
-     *
      */
     public static function escapeHTML($rawInput, $encoding)
     {
