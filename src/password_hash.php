@@ -12,7 +12,7 @@ require_once __DIR__ . '/string_tools.php';
 Class PasswordHash
 {
 
-    const MAX_PASSWORD_LENGTH = 72;
+    const MAX_PASSWORD_LENGTH = 56;
 
     const SALT_BYTELENGTH = 16;
 
